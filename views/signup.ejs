@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="stylesheet/style.css">
+
+    <!--         cdn link
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="stylesheet/fontawesome-free-5.2.0-web/css/all.css">
+
+    <title>LogIn form</title>
+</head>
+
+<body>
+
+    <% include templetes/header.ejs %>
+
+
+<form action="/signup" method="POST">
+    <div class="login-box">
+        <div class=" container ">
+            <div class=" row  ">
+                <div class=" col-md-4 border border-success" style="margin-top:40px;margin-left:400px;margin-right:550px;">
+                    <div class="m-4 login-panel panel panel-default  ">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <center> SignUp </center>
+                            </h4>
+                            <br>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Enter Name" name="name" type="text" autofocus="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Enter Email" name="email" type="text" autofocus="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                    </div>
+                                    
+                                    <button class="btn btn-lg btn-success btn-block">
+                                        
+                                        SignUp</a> </button>
+                                  
+                                         <br>
+
+                                        <a href="/loginPage">Have a account ? Login</a>
+
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

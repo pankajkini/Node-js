@@ -1,0 +1,32 @@
+
+body{
+    background-color: aquamarine;
+}
+
+.profile{
+    
+    margin-left:60px;
+    margin-right: 60px;
+    margin-top: 20px;
+
+}
+
+.signup{
+    color: white;
+}
+
+.uploader{
+	margin-left: 25px;
+}
+
+.btn{
+    margin-top: 35px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.profile-pic{
+
+	margin: 20px;
+}
